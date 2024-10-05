@@ -62,8 +62,9 @@ BUTTON DEFAULTS
 .button__outline {  
   @extend %btn;
   background-color: transparent;
-  border: 3px solid $primary-color;
+  border: 1px solid $primary-color;
   color: $primary-color;
+  padding: 5px 10px;
 
   &:hover {
     background-color: $primary-color;
